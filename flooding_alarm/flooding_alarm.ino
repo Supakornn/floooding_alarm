@@ -1,6 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <TridentTD_LineNotify.h>
 
+
 const int pingPin = D1;
 int inPin = D2;
 #define Buzzer_pin D3
@@ -24,7 +25,7 @@ const char* ssid = "G a p";
 const char* pass = "0951645372";
 
 // Your Line notify token
-#define LINE_TOKEN  ""
+#define LINE_TOKEN  "gjKVJLaSSpaGIxAseJ3LyOkKtTo627tDuaMHS1J9afl"
 
 /* ตั้งค่าระดับน้ำ (cm) ->  index 0 : ไม่มีน้ำท่วม
                       index 1 : น้ำท่วมระดับ 1 

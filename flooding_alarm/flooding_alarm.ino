@@ -2,7 +2,7 @@
 #include <TridentTD_LineNotify.h>
 
 
-const int pingPin = D1;
+const int pingPin = D1; 
 int inPin = D2;
 #define Buzzer_pin D3
 
@@ -25,7 +25,7 @@ const char* ssid = "G a p";
 const char* pass = "0951645372";
 
 // Your Line notify token
-#define LINE_TOKEN  "gjKVJLaSSpaGIxAseJ3LyOkKtTo627tDuaMHS1J9afl"
+#define LINE_TOKEN  "eZ3edpVrfNv3TYtrsbTXgwkNBgKN0PyLV2aBEJo7ibF"
 
 /* ตั้งค่าระดับน้ำ (cm) ->  index 0 : ไม่มีน้ำท่วม
                       index 1 : น้ำท่วมระดับ 1 
@@ -33,9 +33,9 @@ const char* pass = "0951645372";
                       index 3 : น้ำท่วมระดับ 3 
                       index 4 : น้ำท่วมระดับ 4 
                       index 5 : น้ำท่วมระดับ 5  */
-const long flood_level_cm[6] = { 0, 10, 20, 30, 40, 50 };
+const long flood_level_cm[6] = { 1, 2, 3, 4, 5, 6 };
 
-#define SENSOR_DISTANCE     (81)//(100) // ระยะจากพื้นถึง sensor (cm)
+#define SENSOR_DISTANCE     (0)//(100) // ระยะจากพื้นถึง sensor (cm)
 
 // ###################################################################
 
